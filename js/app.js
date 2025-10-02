@@ -206,3 +206,61 @@ console.log("You have come back from the future: " + isTimeTraveller);
 console.log("You probably hang around blood banks a lot: " + isVampire);
 */
 
+/*
+// P8 - CONDITIONAL BRANCHING
+
+const age = 39;
+
+if(age > 18 && age < 120) {
+  console.log("You can buy beer");
+}
+
+else if(age == 17){
+  console.log("You can soon buy beer");
+}
+
+else if(age < 17){
+  console.log("You are too young to buy beer");
+}
+else{
+  console.log("You are old enough to do whatever you want");
+}
+
+// Ternary if - bra för booleans eftersom de bara kan vara true eller false
+
+isSubscribed = true;
+let buttonText = isSubscribed ? "Unsubscribe" : "Subscribe";
+
+hour = 17;
+let greeting = hour < 12 ? "Good Morning!" : "Good Day!";
+
+console.log(buttonText);
+console.log(greeting);
+
+*/
+let birthYear = 2000;
+let favoriteNumber = 21;
+let currentYear = 2025;
+
+if(birthYear < 2007) {
+  console.log("You are an adult");
+}
+
+else if(birthYear < 2012) {
+  console.log("You are a teenager");
+}
+
+else if(birthYear > 2008) {
+  console.log("You are a child");
+}
+
+let greaterNumber = currentYear - birthYear > favoriteNumber ? "Your age is greater than your favorite number" : "Your favorite number is greater than your age";
+console.log(greaterNumber);
+
+let evenOrOdd = favoriteNumber % 2 == 0 ? "Your favorite number is even" : "Your favorite number is odd";
+console.log(evenOrOdd);
+
+
+
+
+
