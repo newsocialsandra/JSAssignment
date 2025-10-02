@@ -1,5 +1,5 @@
 /*
-P1 - CONSOLE PRINTING
+// P1 - CONSOLE PRINTING
 
 console.log("Hello, World!");
 console.log(1+1);
@@ -9,7 +9,7 @@ console.log("Can we combine strings with strings? " + "Maybe?");
  */
 
 /*
-P2 - FORMATTING DOESN'T MATTER
+// P2 - FORMATTING DOESN'T MATTER
 
 console.log("This is line 1.");
 console.log("This is line 2."); console.log("This is line 3.");
@@ -19,7 +19,7 @@ console.log("This is line 5.");
  */
 
 /*
- P3 - COMMENTS
+// P3 - COMMENTS
 
 Sandra Svensson
 1 October 2025
@@ -27,7 +27,7 @@ sandra.svensson@medieinstitutet.se
  */
 
 /*
-P4 - VARIABLES:
+// P4 - VARIABLES:
 
 - const - can't be changed, constant
 
@@ -63,7 +63,8 @@ console.log(--numberOfBottles);
 console.log(line1);
 */
 
-/* P5 - OPERATORS
+/*
+// P5 - OPERATORS
 
 let kmPerHour = 72;
 let kmphToMps = 0.277777778;
@@ -84,7 +85,8 @@ console.log(11%4);
 
  */
 
-// FUNCTIONS
+/*
+// P5 - FUNCTIONS
 
 // function that converts km/h to m/s
 function speedConverter(kmph) {
@@ -150,3 +152,26 @@ function secToMin(x) {
 }
 
 secToMin(111);
+
+*/
+
+// P6 - TYPES
+/*
+const string = " green bottles hanging on the wall";
+const string2 = "And if one green bottle would accidentally fall, there will be "
+
+let numberOfBottles = 10;
+
+console.log(numberOfBottles + string + ". " + numberOfBottles + string);
+console.log(string2 + --numberOfBottles + string);
+
+
+// Trying to do it with a loop
+
+let i = 10;
+while (i > 0) {
+ console.log(i + string);
+ console.log(string2 + --i + string);
+}
+*/
+
