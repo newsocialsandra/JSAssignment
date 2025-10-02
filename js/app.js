@@ -237,7 +237,7 @@ let greeting = hour < 12 ? "Good Morning!" : "Good Day!";
 console.log(buttonText);
 console.log(greeting);
 
-*/
+
 let birthYear = 2000;
 let favoriteNumber = 21;
 let currentYear = 2025;
@@ -254,13 +254,41 @@ else if(birthYear > 2008) {
   console.log("You are a child");
 }
 
+// Ternary if exercise
+
 let greaterNumber = currentYear - birthYear > favoriteNumber ? "Your age is greater than your favorite number" : "Your favorite number is greater than your age";
 console.log(greaterNumber);
 
 let evenOrOdd = favoriteNumber % 2 == 0 ? "Your favorite number is even" : "Your favorite number is odd";
 console.log(evenOrOdd);
 
+*/
 
+/*
+// P9 - Functions
+ */
 
+function f() {
+    console.log("Move Forward.");
+}
 
+function turnAround() {
+  console.log("Turn Right.");
+  console.log("Turn Right.");
+}
+
+function turnLeft() {
+  console.log("Turn Right.");
+  console.log("Turn Right.");
+  console.log("Turn Right.");
+}
+
+let moves = [
+  f, f, f,
+  turnAround, f, f, f,
+  turnLeft, f, f, f,
+  turnLeft, f,
+  turnAround, f];
+
+moves.forEach(move => move());
 
