@@ -266,7 +266,6 @@ console.log(evenOrOdd);
 
 /*
 // P9 - Functions
- */
 
 function f() {
     console.log("Move Forward.");
@@ -292,3 +291,53 @@ let moves = [
 
 moves.forEach(move => move());
 
+*/
+
+/*
+// P10 - Output and input
+*/
+function multiplier(x){
+return x * x;
+}
+
+let results1 = multiplier(4);
+console.log(results1);
+
+function average(x, y){
+  return (x + y) / 2;
+}
+
+let results2 = average(2, 6);
+console.log(results2);
+
+function welcome(x, y){
+return ("Welcome " + x + " " + y +"!");
+}
+
+let results3 = welcome("Ben", "Ting");
+console.log(results3);
+
+function randomNr(){
+  return Math.floor(Math.random() * 3);
+}
+console.log(randomNr());
+
+function numToLetter(x) {
+  let letters = ["A", "B", "C"];
+  return letters[x];
+}
+console.log(numToLetter(1));
+
+function compare(x, y) {
+  if(x == y) {
+    return "Both numbers are equal";
+  }
+  else if(x > y) {
+    return "First number is greater";
+  }
+  else {
+    return "Second number is greater";
+  }
+}
+
+console.log(compare(4,8));
