@@ -175,3 +175,34 @@ while (i > 0) {
 }
 */
 
+// P7 - BOOLEAN
+/*
+const age = 24;
+const birthyear = 2002;
+
+console.log (age == 24 && birthyear == 2004);
+console.log (age == 24 || birthyear == 2004);
+
+// Toggling booleans
+let bool = true;
+bool = !bool;
+// This will now be false:
+console.log(bool);
+
+// Using booleans to check if a statement is true or false
+
+const birthyear = 1865;
+
+let isChild = birthyear >= 2015 && birthyear <= 2025;
+let isTeenager = birthyear >= 2008 && birthyear <= 2015;
+let isAdult = birthyear < 2014;
+let isTimeTraveller= birthyear > 2025;
+let isVampire = birthyear < 1900;
+
+console.log("You are a child: " + isChild);
+console.log("You are a teenager: " + isTeenager);
+console.log("You are an adult: " + isAdult);
+console.log("You have come back from the future: " + isTimeTraveller);
+console.log("You probably hang around blood banks a lot: " + isVampire);
+*/
+
